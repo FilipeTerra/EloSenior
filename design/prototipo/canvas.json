@@ -1,0 +1,36 @@
+{
+  "v": 3,
+  "createdOnFiles": { "v": 1, "at": "2026-11-13T14:00:00Z" },
+  "title": "EloSenior MVP",
+  "launch": { "view": "canvas" },
+  "pages": [],
+  "boards": {
+    "Main.dc.html": { "x": 0, "y": 0, "w": 390, "h": 844, "title": "Hoje", "is_interactive": true, "radius": 28 },
+    "Agenda.dc.html": { "x": 470, "y": 0, "w": 390, "h": 844, "title": "Agenda", "is_interactive": true, "radius": 28 },
+    "Saude.dc.html": { "x": 940, "y": 0, "w": 390, "h": 844, "title": "Saúde do idoso", "is_interactive": true, "radius": 28 },
+    "Documentos.dc.html": { "x": 1410, "y": 0, "w": 390, "h": 844, "title": "Documentos", "is_interactive": true, "radius": 28 },
+    "Ficha.dc.html": { "x": 1880, "y": 0, "w": 390, "h": 844, "title": "Ficha de emergência", "is_interactive": true, "radius": 28 },
+    "Despesas.dc.html": { "x": 0, "y": 1250, "w": 390, "h": 844, "title": "Despesas", "is_interactive": true, "radius": 28 },
+    "NovaDespesa.dc.html": { "x": 470, "y": 1250, "w": 390, "h": 844, "title": "Nova despesa", "is_interactive": true, "radius": 28 },
+    "Familia.dc.html": { "x": 940, "y": 1250, "w": 390, "h": 844, "title": "Família", "is_interactive": true, "radius": 28 },
+    "Convite.dc.html": { "x": 1410, "y": 1250, "w": 390, "h": 844, "title": "Convite", "is_interactive": true, "radius": 28 },
+    "Notificacao.dc.html": { "x": 1880, "y": 1250, "w": 390, "h": 844, "title": "Lembrete de dose", "radius": 28 }
+  },
+  "order": [
+    "Main.dc.html",
+    "Agenda.dc.html",
+    "Saude.dc.html",
+    "Documentos.dc.html",
+    "Ficha.dc.html",
+    "Despesas.dc.html",
+    "NovaDespesa.dc.html",
+    "Familia.dc.html",
+    "Convite.dc.html",
+    "Notificacao.dc.html"
+  ],
+  "notes": {
+    "t1": { "x": 0, "y": -290, "text": "Rotina do cuidado: saúde, documentos e agenda", "kind": "title1", "maxW": 2270 },
+    "t2": { "x": 0, "y": 960, "text": "Finanças, família e lembretes confiáveis", "kind": "title1", "maxW": 2270 }
+  },
+  "designSystems": []
+}
