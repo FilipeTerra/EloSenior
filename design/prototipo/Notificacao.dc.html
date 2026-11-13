@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Lembrete de dose</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fraunces:wght@600&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+*{box-sizing:border-box}
+button{font-family:inherit;cursor:pointer}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; display: flex; flex-direction: column; gap: 8px; padding: 28px 16px 20px; background: #2A2466; color: #fff; font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; overflow: hidden">
+
+<div style="text-align: center; padding-bottom: 6px">
+<div style="font-size: 15px; color: #D7D1F0">Quarta-feira, 13 de novembro</div>
+<div style="font-family: Fraunces, Georgia, serif; font-weight: 600; font-size: 56px; line-height: 1.1">12:00</div>
+</div>
+
+<div style="font-size: 14px; font-weight: 700; color: #D7D1F0; padding-left: 4px">12:00 · para quem é responsável pelo remédio</div>
+<div style="padding: 12px 14px; border-radius: 20px; background: #F4F2FB; color: #1F1B2E">
+<div style="display: flex; align-items: center; gap: 8px; font-size: 14px; color: #5B5870">
+<svg width="22" height="22" viewBox="0 0 48 48" fill="none" aria-hidden="true"><circle cx="18" cy="24" r="11" stroke="#3D3489" stroke-width="6"/><circle cx="30" cy="24" r="11" stroke="#C26A12" stroke-width="6"/></svg>
+EloSenior · agora
+</div>
+<div style="margin-top: 4px; font-size: 17px; font-weight: 700">Maria · Metformina 850 mg</div>
+<div style="font-size: 16px">Hora de tomar às 12:00</div>
+<div style="display: flex; gap: 8px; margin-top: 10px">
+<button style="flex: 1; min-height: 48px; border: 0; border-radius: 14px; background: #3D3489; color: #fff; font-size: 17px; font-weight: 700">Tomou</button>
+<button style="flex: 1; min-height: 48px; border: 1.5px solid #3D3489; border-radius: 14px; background: transparent; color: #3D3489; font-size: 17px; font-weight: 700">Pular</button>
+</div>
+</div>
+
+<div style="margin-top: 6px; font-size: 14px; font-weight: 700; color: #D7D1F0; padding-left: 4px">12:30 · ninguém confirmou: aviso aos outros membros</div>
+<div style="padding: 12px 14px; border-radius: 20px; background: #F4F2FB; color: #1F1B2E">
+<div style="display: flex; align-items: center; gap: 8px; font-size: 14px; color: #5B5870">
+<svg width="22" height="22" viewBox="0 0 48 48" fill="none" aria-hidden="true"><circle cx="18" cy="24" r="11" stroke="#3D3489" stroke-width="6"/><circle cx="30" cy="24" r="11" stroke="#C26A12" stroke-width="6"/></svg>
+EloSenior · agora
+</div>
+<div style="margin-top: 4px; font-size: 17px; font-weight: 700">Dose ainda não confirmada</div>
+<div style="font-size: 16px">Metformina de Maria (12:00) ainda não foi confirmada. Alguém pode ajudar?</div>
+</div>
+
+<div style="margin-top: 6px; font-size: 14px; font-weight: 700; color: #D7D1F0; padding-left: 4px">13:00 · medicamento crítico: alerta urgente e e-mail</div>
+<div style="padding: 12px 14px; border-radius: 20px; background: #FDECEA; color: #1F1B2E">
+<div style="display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 700; color: #A8231B">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4l9 16H3z"/><path d="M12 10v4.5M12 17.5v.1"/></svg>
+ALERTA · EloSenior
+</div>
+<div style="margin-top: 4px; font-size: 17px; font-weight: 700">Dose crítica pendente há 60 min</div>
+<div style="font-size: 16px">Metformina de Maria (12:00). Também enviado por e-mail.</div>
+</div>
+
+<div style="margin-top: auto; padding: 12px 14px; border-radius: 18px; background: #FFF8EC; color: #1F1B2E; border: 2px solid #E8B26A">
+<div style="font-size: 14px; font-weight: 700; color: #8A4B08">Se as notificações estiverem desligadas, o app avisa assim:</div>
+<div style="margin-top: 4px; font-size: 16px; line-height: 1.35">As notificações do EloSenior estão desativadas. Você pode perder lembretes de remédio.</div>
+<div style="display: inline-flex; align-items: center; margin-top: 8px; min-height: 44px; padding: 0 16px; border-radius: 12px; background: #8A4B08; color: #fff; font-size: 16px; font-weight: 700">Ativar agora</div>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>
